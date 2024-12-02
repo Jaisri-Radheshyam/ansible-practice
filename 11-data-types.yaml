@@ -1,9 +1,10 @@
 - name: devops course information
   hots: local
+  connection: local # for localhosts
   vars:
    course: "Devops with AWS" #string
    duration: 120 #number
-   topics:
+   topics: # list
    - Linux
    - Shell
    - Ansible
