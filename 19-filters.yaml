@@ -7,4 +7,4 @@
       msg: "Hello {{}}"
       - name: print the default variable
         ansible.builtin.debug:
-          msg: "Hello {{ couse }}"
+          msg: "Hello {{ course }}"
